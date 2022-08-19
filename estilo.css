@@ -1,0 +1,148 @@
+*{
+    margin: 0rem;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --purple-bg: rgb(41, 7, 66, 1);
+    --dark-bg: rgb(23, 0, 39);
+    --button-bg: rgb(158, 109, 194, 1);
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+
+
+
+/* ............ Header ............. */
+
+
+
+  .head{
+    background-color: var(--dark-bg);
+    padding: 2rem;
+  }
+
+  header{
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header h1{
+    font-family: Poppins;
+  } 
+
+  .point{
+    color: var(--green);
+  }
+
+  header .home{
+    display: flex;
+    font-family: Poppins;
+  }
+
+  header p{
+    justify-content: space-between;
+    padding-right: 1rem;
+  }
+
+  header .home :hover{
+    color: var(--white);
+    cursor: pointer;
+    border-left: 5px solid var(--green);
+    transition: 0.3s;
+  }
+
+  header #Buscar{
+    width: 20rem;
+    height: 2rem;
+    background-color: var(--dark-bg);
+    color: var(--white);
+    padding-left: 1rem;
+    border-radius: 0.4rem 0 0 0.4rem ;
+  }
+
+  header .search{
+    display: flex;
+    background-color: var(--button-bg);
+    align-items: center;
+    border-radius: 0.4rem ;
+  }
+
+/* ........... Header/Section .............. */
+
+.head1{
+    display: flex;
+    background-color: var(--dark-bg);
+    padding: 0 2rem 2rem;
+  }
+
+  section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+  }
+
+  section h1{
+    color: var(--button-bg);
+    font-family: Roboto;
+  }
+
+  section .text{
+    color: var(--white);
+    padding: 1.5rem 0;
+}
+
+ section .veja{
+    display: flex;
+    color: var(--button-bg);
+    align-items: center;
+ }
+
+ section .space{
+    padding-right: 1rem;
+ }
+
+
+
+ .division{
+    border: 3px solid var(--green);
+ }
+
+
+
+ /* ........... Section1 .............. */
+
+.body1{
+    padding: 2rem;
+}
+
+.body1 div{
+    padding: 1.5rem;
+}
+
+.body1 p, .body2 p{
+    padding: 1rem 0;
+    font-family: Roboto;
+    font-size: 400;
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 400;
+    color: var(--purple-bg);
+}
+
+
+ /* ........... Section2 .............. */
+
+ .body2{
+    padding: 2rem;
+}
+
+.container{
+    padding: 1.5rem;
+}
